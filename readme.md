@@ -1,7 +1,10 @@
-package org.example;
+# Leet Code 26 Remove Duplicates from Sorted Array
+## Task level - *Easy*
 
-public class Solution {
-    public int removeDuplicates(int[] nums) {
+--------------
+Solution uses 0(1) extra memory and changes array in-place
+
+```Java
         int k =1;
         int currentUniqueIndex = 0;
         int indexToChange = -1;
@@ -35,5 +38,5 @@ public class Solution {
 
         }
         return nums.length;
-    }
-}
+
+```
